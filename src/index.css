@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: aqua;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.title {
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  font: 300;
+  font-style: oblique;
+  background-color: aqua;
+}
+.input-box {
+  padding: 10px;
+  margin-right: 10px;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.quotes {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: aqua;
+  padding: 15px;
+  background-color: black;
+}
+.Checked {
+  text-decoration: line-through;
+  text-decoration-color: white;
+}
+.dlt-btn {
+  background-color: aqua;
+  color: black;
+  margin-left: 10px;
+}
+
+.listItem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.submit-btn {
+  color: aqua;
+  background-color: BLACK;
+  transition: opacity 100ms;
+  font-size: medium;
+  block-size: auto;
+  border-radius: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font: 100;
+}
+.submit-btn:hover {
+  background-color: aqua;
+  color: black;
+}
